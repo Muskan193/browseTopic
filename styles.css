@@ -1,0 +1,174 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Browse Topics Section */
+  .browse-topics {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .browse-topics h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+  }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+  }
+  
+  .tab {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+border: 0px 0px 2px 0px;            
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .tab.active,
+  .tab:hover {
+    
+    color: rgb(0, 13, 255);
+    border-color: #007bff;
+    
+        border-bottom: 5px solid rgb(0, 13, 255);
+  }
+  
+  /* Topic Cards */
+  .topic-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .card1 span
+  {
+    display: inline;
+    font-size: 20px;
+    padding:0px 80px 20px 0px;
+  }
+  
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0px 80px 20px 0px;
+    margin-bottom: 1rem;
+  }
+  
+  .card .badge {
+    
+    background: #007bff;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+
+    font-size: 0.75rem;
+  }
+  
+  /* How Does It Work Section */
+  .how-it-works {
+    color:#fff;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
+  .shadow
+  {
+      position: absolute;
+      left: 0px;
+      top: 600px;
+      z-index: -1;
+    
+  }
+  
+  .how-it-works h2 {
+    font-size: 1.75rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 700px;
+  }
+  
+  .step-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .step-text h3 {
+    font-size: 1.25rem;
+    color:#222;
+    margin-bottom: 0.25rem;
+  }
+  
+  .step-text p {
+    font-size: 0.9rem;
+    color:#222;
+    text-align: left;
+  }
+  
+  /* Footer Link */
+  .footer-link {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .footer-link button {
+    font-size: 1rem;
+    color:#222;
+    padding:5px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link button:hover {
+    color: #0056b3;
+  }
+  
